@@ -44,7 +44,9 @@ const sendEmail = (e) =>{
     e.preventDefault()
 
     // serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_s0k4q88','template_05xkhgw','#contact-form','moIG8_Y_USF1MA1_-')
+    emailjs.sendForm('service_s3f7caj','template_aujh97g','#contact-form','OGmc1fHTj9aZmLYie')
+
+    emailjs.send("service_s3f7caj","template_aujh97g")
     .then(() =>{
         // Show sent message
         contactMessage.textContent = 'Message sent successfully ✅'
@@ -138,11 +140,3 @@ sr.reveal('.home__perfil, .about__image, .contact__mail', { origin: 'right' });
 sr.reveal('.home__name, .home__info, .about__container .section__title-1, .about__info, .contact__social, .contact__data', { origin: 'left' });
 sr.reveal('.services__card, .projects__card', {internal: 100})
 
-var swiper = new Swiper('.swiper', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    navigation: {
-       nextEl: '.swiper-button-next',
-       prevEl: '.swiper-button-prev',
-    },
- });
