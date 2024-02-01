@@ -263,6 +263,7 @@ body.dark-theme{
   align-items: center;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+  margin-left: 1rem;
 }
 
 .nav__logo-circle,
@@ -1197,6 +1198,9 @@ body.dark-theme{
 
   .projects__container{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .nav__logo{
+    margin-left: 0;
   }
 }
 
