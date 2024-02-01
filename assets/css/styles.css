@@ -688,7 +688,7 @@ body.dark-theme{
 .services__container{
   /* grid-template-columns: 250px; */
   justify-content: center;
-  row-gap: 2.5rem;
+  row-gap: 4rem;
   padding-top: 0.3rem;
 }
 
