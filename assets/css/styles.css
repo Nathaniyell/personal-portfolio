@@ -172,7 +172,7 @@ body.dark-theme{
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
-  margin-inline: 1.5rem;
+  /* margin-inline: 1.5rem; */
 }
 
 .grid {
@@ -288,7 +288,7 @@ body.dark-theme{
 @media screen and (max-width: 1150px){
   .nav__menu{
     position: fixed;
-    top: -100%;
+    top: -119%;
     left: 0;
     background-color: hsla(0, 0%, 0%, .75);
     width: 100%;
@@ -757,7 +757,7 @@ body.dark-theme{
 }
 
 .projects__card{
-  padding: 1rem 1rem 2rem;
+  padding: 0 0 2rem;
   transition: background-color .4s;
 }
 
@@ -1449,7 +1449,7 @@ body.dark-theme{
   }
 
   .projects__container{
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     padding-block: 2rem;
   }
   .projects__card{
