@@ -139,3 +139,15 @@ sr.reveal('.home__perfil, .about__image, .contact__mail', { origin: 'right' });
 sr.reveal('.home__name, .home__info, .about__container .section__title-1, .about__info, .contact__social, .contact__data', { origin: 'left' });
 sr.reveal('.services__card, .projects__card', {internal: 100})
 
+function toggleReadMore() {
+    const extraContent = document.getElementById("extraContent");
+    const readMoreBtn = document.getElementById("readMoreBtn");
+
+    if (extraContent.style.display === "none" || extraContent.style.display === "") {
+       extraContent.style.display = "block";
+       readMoreBtn.textContent = "Read Less";
+    } else {
+       extraContent.style.display = "none";
+       readMoreBtn.textContent = "Read More";
+    }
+ }

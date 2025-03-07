@@ -1562,3 +1562,22 @@ body.dark-theme{
   width: 30px; /* Adjust icon size */
   height: 30px;
 }
+
+.about__extra {
+  display: none; 
+  margin-top: 10px;
+}
+
+.read-more-btn {
+  background-color: var(  --black-color);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0.5rem;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
